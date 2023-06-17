@@ -1,0 +1,96 @@
+body{
+    background-color: #27374D;
+}
+.container{
+    list-style: none;
+    display:flex;
+    gap: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.abc{
+    color: wheat;
+}
+h1 {
+    color:antiquewhite;
+    background-color: #526D82;
+    background-image: url(MSCS_LOGO\ \(1\).png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 36% 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+w1{
+    position: relative;
+    right: 390px;
+    top: 20px;
+    font-family:  'Orbit', sans-serif;
+    font-size: 67px;
+    text-align: center;
+
+}
+input{
+    position: relative;
+    left: 35px;
+    top: -20px;
+     font-size: x-large;
+      height: 1cm; 
+      width: 15cm;
+     border: 5px solid #023047;
+     border-radius: 25px; 
+     padding: 5px;
+}
+h2{
+    color: darkblue;
+}
+h3{
+    font-style: italic;
+}
+div {
+    background-color:#526D82;
+    color:black;
+    font-family:monospace;
+    font-size:20px;
+}
+
+a{
+    color: white;
+}
+#page{
+        position: absolute;
+        left: 200px;
+        bottom: 200px;
+        z-index: 2;
+        width:400px; 
+        height:400px; 
+        background-color:red;
+      }
+#desc{
+    box-sizing: content-box;
+    color: #023047;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ending{
+    display: flex;
+    gap: 30px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+  }
+  th{
+    color: wheat;
+    border: 1px solid ;
+    text-align: left;
+    padding: 8px;
+  }
+  td {
+    border: 1px solid ;
+    text-align: left;
+    padding: 8px;
+
+  }
